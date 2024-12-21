@@ -51,7 +51,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 					return response.status
 					
 					
-					console.log(data);
 				} catch (error) {
 					console.log(error);
 					return false

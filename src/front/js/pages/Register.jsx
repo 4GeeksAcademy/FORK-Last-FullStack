@@ -55,7 +55,6 @@ const Register = () => {
                             className="form-control"
                             placeholder="Deimian Vásquez"
                             name="name"
-                            // DO WHAT
                             value={user.name}
                             onChange={handleChange}
 
@@ -90,10 +89,7 @@ const Register = () => {
                             type="file"
                             className="form-control"
                             placeholder="Deimian Vásquez"
-                            // value={user.file}
-                            // onChange={(event) => {
-                            //     setUser({ ...user, avatar: event.target.files[0] })
-                            // }}
+                         
                         />
                     </div>
                     <button className="btn btn-primary mt-3 w-100">Registarme</button>

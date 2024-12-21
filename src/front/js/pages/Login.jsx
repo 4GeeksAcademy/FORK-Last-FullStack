@@ -74,12 +74,7 @@ const Login = () => {
                         <p className="m-0">
                             ¿No tienes una cuenta? <Link to={"/register"}>Regístrate</Link>
                         </p>
-                        <p className="mt-2">
-                            <Link to={"/recovery-password"}>
-                                ¿Has olvidado la contraseña?
-                            </Link>
-                        </p>
-                    </div>
+                        </div>
                 </div>
             </div>
         </div >

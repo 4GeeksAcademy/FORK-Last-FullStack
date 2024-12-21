@@ -14,7 +14,7 @@ export const Navbar = () => {
 				</Link>
 				<div className="ml-auto">
 					{
-						// TF?
+						// TF
 						store.token ?
 							<button
 								className="btn btn-primary"

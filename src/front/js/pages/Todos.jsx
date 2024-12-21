@@ -2,7 +2,9 @@ import React from "react";
 
 const Todos = () => {
     return (
-        <h1>PAGINA PRIVADA</h1>
+        <div className="m=auto">
+            <h1>Pagina Privada</h1>
+        </div>
     )
 }
 
