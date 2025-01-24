@@ -147,3 +147,5 @@ def get_all_todos():
         return jsonify("ok"), 200
     except Exception as error:
         return jsonify(f"ERROR {error.args}"), 500
+
+
